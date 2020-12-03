@@ -110,7 +110,7 @@ class StringManipulatorTest(TestCase):
                '''.format(first_value, second_value, expected_output, actual_output)
 
             # then
-            self.assertEquals(expected_output, actual_output, calculation_error_message)
+            self.assertEqual(expected_output, actual_output, calculation_error_message)
 
 
     def ternary_function_assert_equals(self, method_to_be_tested, value_sets):

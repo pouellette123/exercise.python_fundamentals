@@ -68,16 +68,22 @@ class CalculatorTest(unittest.TestCase):
     def test_divide(self):
         self._test(Calculator().divide, [
 <<<<<<< HEAD
+<<<<<<< HEAD
 #            (1, 3, .333),
 #            (5, 8, .625),
 #           (13, 21, .619),
 #            (0, 0, ZeroDivisionError),
 =======
+=======
+>>>>>>> dc4c1af6d3d27063701f62f92cbddb4d2362c0fb
             (1, 3, .333),
             (5, 8, .625),
             (13, 21, .619),
             #(0, 0, ZeroDivisionError), # this is another change
+<<<<<<< HEAD
 >>>>>>> a451a2e431273953100bdb132018a594adafe33c
+=======
+>>>>>>> dc4c1af6d3d27063701f62f92cbddb4d2362c0fb
             (3, 1, 3),
 #            (8, 5, 1.6),
 #           (21, 13, 1.615),
