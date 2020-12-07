@@ -10,7 +10,7 @@ class Calculator(object):
         return a*b
 
     def divide(self, a, b):
-        return a/b
+        return round(a/b,3)
 
 #print(Calculator.add(None,3.2, 4))
 #print(Calculator.subtract(None,3.2, 4))
